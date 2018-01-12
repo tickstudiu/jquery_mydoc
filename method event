@@ -22,4 +22,12 @@
     alert("You entered p1!");
   });
  
-4. 
+4. .mouseleave(function(){...});
+  this like mouseenter but the mouse pointer leaves
+  ex
+  
+  $("#p1").mouseleave(function(){
+    alert("Bye! You now leave p1!");
+  });
+  
+5. 
