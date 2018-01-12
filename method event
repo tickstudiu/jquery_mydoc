@@ -1,0 +1,25 @@
+1. .click(function(){...});
+  when u click on this selector will do order in this function
+  ex
+  
+  .click(function(){
+    $(this).hide();
+  });
+
+2. .dbclick(function(){...});
+  when u double click this will do in this function
+  ex
+  
+  $("p").dblclick(function(){
+    $(this).hide();
+  });
+  
+3. .mouseenter(function(){...});
+  this event like hover but this only one way when mouse on! or mouse enter!
+  ex
+  
+  $("#p1").mouseenter(function(){
+    alert("You entered p1!");
+  });
+ 
+4. 
