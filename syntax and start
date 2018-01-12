@@ -1,0 +1,17 @@
+>> normal code
+$(document).ready(function(){
+
+   // jQuery methods go here...
+
+}); 
+
+commend : when you want to start jquery u shold write the jquery like this before start to sure this jquery not error
+
+>>tip
+ $(function(){
+
+   // jQuery methods go here...
+
+});
+
+commend : this same like normal code
