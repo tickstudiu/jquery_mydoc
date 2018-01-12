@@ -1,0 +1,40 @@
+when u start jquery u want to select ID or class in website u can write code like this
+
+$(document).ready(function(){
+    $("button").click(function(){
+        $(".test").hide();
+    });
+});
+
+in the first line
+
+$(document).ready(function(){
+    // method
+});
+
+to start the method u went to write in 
+
+$(document).ready(function(){
+
+    $("button").click(function(){
+        $(".test").hide();
+    });
+    
+});
+
+after u write starter jquery , $("button") is selecter this mean all button and .click(funtion(){...}); is mean when u click this
+it will do order in this funtion
+
+selecter have 4 type
+  1. $("button") = all button tag
+  2. $(".button") = class button
+  3. $("#button") = id button
+  4. $(this) = Selects the current
+
+tip
+  1. $("*") = all element
+  2. $("p.intro") = Selects all <p> elements with class="intro"
+  3. $("ul li:first-child") = Selects the first <li> element of every <ul>
+  4. $("tr:even") = Selects all even <tr> elements
+  5. $("[href]") = Selects all elements with an href attribute
+  6. $("a[target='_blank']") = Selects all <a> elements with a target attribute value equal to "_blank"
